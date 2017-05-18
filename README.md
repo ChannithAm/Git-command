@@ -1,7 +1,7 @@
 # Git-command
 របៀបប្រើប្រាស់Git Command
-#1 របៀបប្រើប្រាស់ Git Commands
-#3 Install git with ubuntu
+# របៀបប្រើប្រាស់ Git Commands
+###3 Install git with ubuntu
 ```
 sudo apt-get install git
 ```
