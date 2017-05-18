@@ -1,28 +1,28 @@
 # Git-command
 របៀបប្រើប្រាស់Git Command
 # របៀបប្រើប្រាស់ Git Commands
-###3 Install git with ubuntu
+### Install git with ubuntu
 ```
 sudo apt-get install git
 ```
 
-#3 Install Git and bash-completion ដើម្បីងាយស្រួលក្នុងការប្រើប្រាស់ `​Git Command`​
+### Install Git and bash-completion ដើម្បីងាយស្រួលក្នុងការប្រើប្រាស់ `​Git Command`​
 ដោយគ្រាន់តែចុច `TAB`​ នោះនឹងលោត Command ដែលអាចនឹងបំពេញ
 ```
 sudo apt-get install git bash-completion
 ```
 
-#3 ដាក់ ឈ្មោះ និង អុីម៉ែល សំរាប់ពេល `commi`​ ឡើង​ `server` ដើម្បីដឹងថានណា `commit` 
+### ដាក់ ឈ្មោះ និង អុីម៉ែល សំរាប់ពេល `commi`​ ឡើង​ `server` ដើម្បីដឹងថានណា `commit` 
 ឡើងព្រោះមួយ `repo`​ អាចមានគ្នាច្រើនចូលរួម
 ```
 git config --global user.name "Channith Am"
 git config --global user.email amcnith@gmail.com
 
-#3 ជ្រើរស់ប្រភេទ `editor`​​​ (default) សំរាប់ `git` ដូចជា vi, vim, nano,..
+### ជ្រើរស់ប្រភេទ `editor`​​​ (default) សំរាប់ `git` ដូចជា vi, vim, nano,..
 ```
 git config --global core.editor vim
 
-#3​ បង្ហាញបញ្ជីដែលបានបង្កើត
+### បង្ហាញបញ្ជីដែលបានបង្កើត
 ```
 git config --list
 ```
@@ -33,7 +33,7 @@ user.name=Channith Am
 user.email=amcnith@gmail.com
 core.editor=vim
 ```
-#3 បង្កើតគណនេយ្យ `github` ដោយ `SSH`
+### បង្កើតគណនេយ្យ `github` ដោយ `SSH`
 ```
 ssh-keygen -t rsa
 ```
@@ -107,8 +107,8 @@ So when commit you can commit without any gmail and password
 
 
 
-#3 Clone
+### Clone
 Linux
-SSH: `git clone git@github.com:ChannithAm/Git-command.git`
+SSH: `git clone git@github.com:ChannithAm/Git-command.git`<br/>
 or:  `git clone git@github.com:ChannithAm/Git-command.git /Documents/`
 ដើម្បីរក្សានៅ /Documents/
