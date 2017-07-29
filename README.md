@@ -12,16 +12,17 @@ sudo apt-get install git
 sudo apt-get install git bash-completion
 ```
 
-### ដាក់ ឈ្មោះ និង អុីម៉ែល សំរាប់ពេល `commi`​ ឡើង​ `server` ដើម្បីដឹងថានណា `commit` 
+### ដាក់ ឈ្មោះ និង អុីម៉ែល សំរាប់ពេល `commit`​ ឡើង​ `server` ដើម្បីដឹងថានណា `commit` 
 ឡើងព្រោះមួយ `repo`​ អាចមានគ្នាច្រើនចូលរួម
 ```
 git config --global user.name "Channith Am"
 git config --global user.email amcnith@gmail.com
+```
 
 ### ជ្រើរស់ប្រភេទ `editor`​​​ (default) សំរាប់ `git` ដូចជា vi, vim, nano,..
 ```
 git config --global core.editor vim
-
+```
 ### បង្ហាញបញ្ជីដែលបានបង្កើត
 ```
 git config --list
@@ -39,15 +40,6 @@ ssh-keygen -t rsa
 ```
 នៅលើ `screen` នឹងបង្ហាញដូចខាងក្រោម
 ```
-cyber@secure:~$ ssh-keygen -t rsa
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/cyber/.ssh/id_rsa): 
-Created directory '/home/cyber/.ssh'.
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Saving key "/home/cyber/.ssh/id_rsa" failed: passphrase is too short (minimum five characters)
-
-ssh-keygen -t rsa
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/cyber/.ssh/id_rsa): [Enter] 
 Enter passphrase (empty for no passphrase): [choose your passphrase or leave empy]
@@ -80,7 +72,7 @@ id_rsa  id_rsa.pub
 ```
 ssh-agent -s
 ```
-Reslt on my screen:
+Reslt on screen:
 ```
 SSH_AUTH_SOCK=/tmp/ssh-BJAWcwJTOFHD/agent.23258; export SSH_AUTH_SOCK;
 SSH_AGENT_PID=23259; export SSH_AGENT_PID;
@@ -89,9 +81,16 @@ echo Agent pid 23259;
 ```
 ssh-add ~/.ssh/id_rsa
 ```
-Result on my screen:
+Result on screen:
 ```
 Identity added: /home/cyber/.ssh/id_rsa (/home/cyber/.ssh/id_rsa)
+```
+```
+cat ~/.ssh/id_rsa
+```
+On screen:
+```
+id_rsa      id_rsa.pub
 ```
 ```cat ~/.ssh/id_rsa.pub
 ```
@@ -104,7 +103,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvy4KvdeX4T6Z6E91FuAZsoXTHFl35yePNWfS64KdU
 copy that code and access https://github.com/settings/ssh (assume that you have
 signin). Choose Add SSH key, name: Git and past that code into key column.
 So when commit you can commit without any gmail and password
-
+<img src="https://camo.githubusercontent.com/c35e7a87819596bebc9e28e8d16c654af2c28df7/687474703a2f2f692e696d6775722e636f6d2f7a757861765a352e706e67">
 
 
 ### Clone
