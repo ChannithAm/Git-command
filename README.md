@@ -112,6 +112,7 @@ Linux
 SSH: `git clone git@github.com:ChannithAm/Git-command.git`<br/>
 or:  `git clone git@github.com:ChannithAm/Git-command.git /Documents/`
 ដើម្បីរក្សានៅ /Documents/
+------------------
 ### References
 សំរាប់របៀបប្រើប្រាស់បន្ថែម៖
-[Markdown syntax guid](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
+[Markdown syntax guide](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
