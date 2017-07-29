@@ -26,6 +26,7 @@ git config --global core.editor vim
 ### បង្ហាញបញ្ជីដែលបានបង្កើត
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
 >git config --list
+
 លទ្ធផល
 ```
 cyber@secure:~$ git config --list
@@ -36,6 +37,7 @@ core.editor=vim
 ### ភ្ជាប់តំណគណនេយ្យ `github` ដោយ `SSH`
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
 >ssh-keygen -t rsa
+
 នៅលើ `screen` នឹងបង្ហាញដូចខាងក្រោម
 ```
 Generating public/private rsa key pair.
@@ -62,12 +64,14 @@ The key's randomart image is:
 ```
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
 >ls ~/.ssh/
+
 Result:
 ```
 id_rsa  id_rsa.pub
 ```
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
 >ssh-agent -s
+
 Reslt on screen:
 ```
 SSH_AUTH_SOCK=/tmp/ssh-BJAWcwJTOFHD/agent.23258; export SSH_AUTH_SOCK;
@@ -76,20 +80,21 @@ echo Agent pid 23259;
 ```
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
 >ssh-add ~/.ssh/id_rsa
+
 Result on screen:
 ```
 Identity added: /home/cyber/.ssh/id_rsa (/home/cyber/.ssh/id_rsa)
 ```
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
-```
 >cat ~/.ssh/id_rsa
-```
+
 On screen:
 ```
 id_rsa      id_rsa.pub
 ```
 បញ្ចូលឃ្លាខាងក្រោមនៅលើTerminal
 >cat ~/.ssh/id_rsa.pub
+
 Result:
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvy4KvdeX4T6Z6E91FuAZsoXTHFl35yePNWfS64KdUASCY6a0b24bShbog4S9VQtS6vAfxEG4miFs3rA+xsYhxlJMHZtXnX+ofypqmmDnCxcXJoiI0+QpOvZgLjWpxMY2LMQA+4J1KBk8I7D72pGgkVWGM6f5nHNYLoqW5Zyk74flzfIBKhFWQOiVprpB7yP6pWfayyRiXOUDNblodzpUqnK02jmaZH4QFnCPz1bdzfHUuVu7hoBj7e9kg8+2A+MRfR6Kjup6gleDy3ag3divB7hOvdSJIvArhDwBP5Jq3MnxW7M4j14ewtyUO+Q2Ka5MVYfzGCGHgmk/ZiTn7wNlr cyber@secure
