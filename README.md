@@ -34,7 +34,7 @@ user.name=Channith Am
 user.email=amcnith@gmail.com
 core.editor=vim
 ```
-### បង្កើតគណនេយ្យ `github` ដោយ `SSH`
+### ភ្ជាប់តំណគណនេយ្យ `github` ដោយ `SSH`
 ```
 ssh-keygen -t rsa
 ```
